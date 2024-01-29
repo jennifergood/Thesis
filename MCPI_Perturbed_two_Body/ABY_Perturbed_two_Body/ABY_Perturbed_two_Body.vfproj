@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{6581FDB4-124C-435D-96CD-3868E3E6A19E}">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/>
+	</Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+		<Configuration Name="Debug|x64">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole" StackReserveSize="33554432"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+		<Configuration Name="Release|Win32">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+		<Configuration Name="Release|x64">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd;h;inc"/>
+		<Filter Name="Output">
+		<File RelativePath=".\fort.10"/>
+		<File RelativePath=".\fort.30"/>
+		<File RelativePath=".\fort.35"/>
+		<File RelativePath=".\fort.50"/>
+		<File RelativePath=".\fort.51"/>
+		<File RelativePath=".\fort.52"/>
+		<File RelativePath=".\fort.53"/>
+		<File RelativePath=".\fort.54"/>
+		<File RelativePath=".\fort.59"/>
+		<File RelativePath=".\fort.70"/>
+		<File RelativePath=".\fort.71"/>
+		<File RelativePath=".\fort.72"/>
+		<File RelativePath=".\fort.73"/></Filter>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath="..\00_ABY_Perturbed_Source_Files\CLOSE_IO.F90"/>
+		<File RelativePath="..\00_ABY_Perturbed_Source_Files\EB_VARIABLE_HANDLING.F90"/>
+		<File RelativePath="..\00_ABY_Perturbed_Source_Files\EGM2008SH200x200.f90"/>
+		<File RelativePath="..\00_ABY_Perturbed_Source_Files\INTEGRATION.F90"/>
+		<File RelativePath="..\00_ABY_Perturbed_Source_Files\MainProgram.F90"/>
+		<File RelativePath=".\MCPI.f90"/>
+		<File RelativePath="..\00_ABY_Perturbed_Source_Files\N_TUPLE.f90"/>
+		<File RelativePath="..\00_ABY_Perturbed_Source_Files\OCEA_IO.f90"/>
+		<File RelativePath="..\00_ABY_Perturbed_Source_Files\OCEA_MATHLIB.F90"/>
+		<File RelativePath="..\00_ABY_Perturbed_Source_Files\OCEA_MATRIX_LIB.F90"/>
+		<File RelativePath="..\00_ABY_Perturbed_Source_Files\OPEN_IO.F90"/>
+		<File RelativePath="..\00_ABY_Perturbed_Source_Files\problem_data.F90"/>
+		<File RelativePath="..\00_ABY_Perturbed_Source_Files\SAVE_Symplectic_Check_up_to_3rdOrder - Copy.f90"/>
+		<File RelativePath="..\00_ABY_Perturbed_Source_Files\SAVE_Symplectic_Check_up_to_4TH_Order.f90"/>
+		<File RelativePath="..\00_ABY_Perturbed_Source_Files\Symplectic_Check_up_to_3rdOrder.f90"/></Filter>
+	</Files>
+	<Globals/>
+</VisualStudioProject>
